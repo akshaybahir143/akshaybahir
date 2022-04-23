@@ -541,30 +541,24 @@ footer .copyright{
     /*------------------availabe note-------------------*/
 
     section.freelancer h1{
-        margin-right: 4rem;
+        
         letter-spacing: 2.1px;
        margin-bottom: 2rem;
     }
     
 
-    section.freelancer p {
-        margin-right: 2rem; ;
-    }
+   
 
-    section.freelancer .btn-primary {
-
-        margin-right: 2rem;
-    }
-
+ 
    /*-------------- projects--------------------*/
 
    .section-heading{
-       margin-right: 2rem;
+       
        margin-top: -3rem;
    }
 
    section.work p{
-       margin-right: 4rem;
+       
        color: var(--primary);
    }
 
