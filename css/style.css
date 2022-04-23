@@ -590,13 +590,20 @@ footer .copyright{
 
    section.contact .card-wrapper{
     grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0rem;
     
    }
 
    section.contact .card-wrapper .card{
     margin-left: 0rem;
-    
-    
+   }
+
+   section.contact .card-wrapper .card h1{
+       margin-top: -2.5rem;
+   }
+
+   section.contact .card-wrapper .card h6{
+       margin-top: -1rem;
    }
 
    section.contact .input-wrap{
@@ -614,7 +621,11 @@ footer .copyright{
        padding: 2rem;
        padding-bottom: 2rem;
        margin-left: 0rem;
-       margin-top: 3rem;
+       margin-top: -3rem;
+   }
+
+   form {
+       margin-top: -2rem;
    }
 
   
