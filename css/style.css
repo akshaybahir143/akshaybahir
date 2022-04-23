@@ -486,12 +486,12 @@ footer .copyright{
 
     .hero .left img{
         width: 200px;
-        margin-right: 4rem;
+        margin-right: 2rem;
         margin-bottom: 1rem;
     }
     .hero .right p{
         padding: 1rem;
-        margin-right: 4rem;
+        margin-right: 2rem;
         
     }
     header{
@@ -528,7 +528,7 @@ footer .copyright{
     .services .section-heading{
         margin-bottom: 7rem;
         margin-top: 1rem;
-        margin-right: 4.5rem;
+        margin-right: 2rem;
     }
 
     section.services .card-wrapper{
@@ -537,7 +537,7 @@ footer .copyright{
 
     section.services .card-wrapper .card{
         margin-left: -0.8rem;
-        margin-right: 4rem;
+        margin-right: 2rem;
     }
 
     /*------------------availabe note-------------------*/
@@ -550,18 +550,18 @@ footer .copyright{
     
 
     section.freelancer p {
-        margin-right: 4rem; ;
+        margin-right: 2rem; ;
     }
 
     section.freelancer .btn-primary {
 
-        margin-right: 4rem;
+        margin-right: 2rem;
     }
 
    /*-------------- projects--------------------*/
 
    .section-heading{
-       margin-right: 4rem;
+       margin-right: 2rem;
        margin-top: -3rem;
    }
 
@@ -590,7 +590,7 @@ footer .copyright{
    }
 
    section.contact .section-heading{
-       margin-right: 5rem;
+       
        margin-bottom: 4rem;
       
    }
@@ -602,7 +602,7 @@ footer .copyright{
 
    section.contact .card-wrapper .card{
     margin-left: -2rem;
-    margin-right: 3rem;
+    
     
    }
 
@@ -613,35 +613,21 @@ footer .copyright{
    section.contact .input-wrap{
     padding: 2rem;
     padding-bottom: 1rem;
-    margin-right: 4rem;
+    
     margin-top: 1rem;
    }
 
    section.contact .input-wrap-2{
        padding: 2rem;
        padding-bottom: 2rem;
-       margin-right: 4rem;
+       
        margin-top: 3rem;
    }
 
-   section.contact .btn-primary{
-       margin-right: 4.3rem;
-   }
+  
 
    section.contact input{
     margin-bottom: 0.2rem;
-   }
-
-   /*------------------------footer-------------*/
-       
-  
-   footer .footer-socials{
-       margin-right: 3.5rem;
-   }
-
-   footer .copyright{
-       margin-right: 4.5rem;
-       
    }
 
 }
