@@ -486,7 +486,7 @@ footer .copyright{
 
     .hero .left img{
         width: 200px;
-        
+        margin-top: 1rem;
         margin-bottom: 1rem;
     }
     .hero .right p{
@@ -498,7 +498,7 @@ footer .copyright{
         padding-bottom: 3rem;
     }
     header .btn-secondary{
-        margin-left: 2rem;
+        margin-left: 3rem;
     }
 
     /*---------- about-----------------*/
@@ -511,12 +511,13 @@ footer .copyright{
         margin-left: -18rem;
         margin-bottom: 2rem;
         margin-top: -5rem;
+        margin-left: -13rem;
     }
     section .interests h1{
         margin-left: 3rem;
     }
     section .education{
-        margin-left: -5rem;
+        margin-left: -1rem;
         margin-bottom: -5rem;
     }
   
@@ -526,7 +527,7 @@ footer .copyright{
     .services .section-heading{
         margin-bottom: 7rem;
         margin-top: 1rem;
-        margin-right: 2rem;
+        margin-right: 0rem;
     }
 
     section.services .card-wrapper{
@@ -534,7 +535,7 @@ footer .copyright{
     }
 
     section.services .card-wrapper .card{
-        margin-left: -0.8rem;
+        margin-left: 0rem;
         
     }
 
@@ -567,7 +568,7 @@ footer .copyright{
    }
 
    section.work .card-wrapper .card{
-    margin-left: -2rem;
+    margin-left: 0rem;
    }
 
    section.work{
@@ -593,7 +594,7 @@ footer .copyright{
    }
 
    section.contact .card-wrapper .card{
-    margin-left: -2rem;
+    margin-left: 0rem;
     
     
    }
@@ -605,14 +606,14 @@ footer .copyright{
    section.contact .input-wrap{
     padding: 2rem;
     padding-bottom: 1rem;
-    
+    margin-left: 0rem;
     margin-top: 1rem;
    }
 
    section.contact .input-wrap-2{
        padding: 2rem;
        padding-bottom: 2rem;
-       
+       margin-left: 0rem;
        margin-top: 3rem;
    }
 
@@ -620,6 +621,10 @@ footer .copyright{
 
    section.contact input{
     margin-bottom: 0.2rem;
+   }
+
+   footer .footer-socials{
+       margin-left: 1rem;
    }
 
 }
