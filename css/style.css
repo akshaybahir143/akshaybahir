@@ -78,6 +78,20 @@ header nav .left a{
     transition: all .3s ease;
 }
 
+header .container{
+    background-color: var(--pure);
+    margin-bottom: -3rem;
+}
+
+.hero .right h1{
+    color: var(--dark);
+}
+
+.hero .right p{
+    color: var(--dark);
+}
+
+
 header nav .left a:hover{
     color: var(--primary);
 }
@@ -109,7 +123,7 @@ header nav .branding{
 .hero .right h1{
     font-size: 4rem;
     font-weight: 100;
-    line-height: 1.2;
+    line-height: 3rem;
     margin-bottom: 2rem;
 }
 
@@ -134,6 +148,10 @@ section .education h1{
     font-size: 1.6rem;
     margin-left: 1.6rem;
     
+}
+
+section .interests h1{
+    margin-top: 2rem;
 }
 
 section .education h1 span{
