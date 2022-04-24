@@ -481,7 +481,13 @@ footer .copyright{
     }
 
     .hero .right h1{
-        line-height: 4rem;
+        line-height: 2.5rem;
+        font-size: 40px;
+        margin-left: 1.8rem;
+        margin-bottom: 0.7rem;
+    }
+    .hero .right h1 span{
+        margin-left: 3rem;
     }
 
     .hero .left img{
@@ -494,6 +500,12 @@ footer .copyright{
         
         
     }
+
+    .hero .right h6{
+        margin-left: 5rem;
+    }
+
+
     header{
         padding-bottom: 3rem;
     }
@@ -558,10 +570,7 @@ footer .copyright{
        margin-top: -3rem;
    }
 
-   section.work p{
-       
-       color: var(--primary);
-   }
+   
 
    section.work .card-wrapper{
     grid-template-columns: repeat(1,1fr);
