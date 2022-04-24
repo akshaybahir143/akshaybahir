@@ -123,13 +123,10 @@ header nav .branding{
 .hero .right h1{
     font-size: 4rem;
     font-weight: 100;
-    line-height: 3rem;
+    line-height: 4rem;
     margin-bottom: 2rem;
 }
 
-.hero .right h1 span{
-    color: var(--primary);
-}
 
 .hero .right p{
     line-height: 1.9;
