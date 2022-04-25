@@ -476,6 +476,69 @@ footer .copyright{
     font-size: 2rem;
 }
 
+/*-----------bhagta text-----------------*/
+
+.bhagtatext li {
+    list-style: none;
+    color:var(--pure);
+    font-size: 30px;
+    font-weight: 400;
+    top: 0;
+    position: relative;
+    animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+    100%{
+        top:-360px
+    }
+    
+}
+
+.bhagtatext li{
+    position: relative;
+   
+}
+
+.bhagtatext li::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:var(--dark);
+    border-left: 2px solid var(--dark);
+    animation: typing 3s steps(10) infinite;
+
+
+}
+
+
+@keyframes typing {
+
+    30%,
+    30%{
+        left: calc(100% + 0px);
+    }
+    100%{
+        left: 0;
+    }
+}
+
+.bhagtatext{
+    margin-left: -40px; 
+    line-height: 90px;
+    height: 90px;
+    
+    overflow: hidden; 
+}
+
+.bhagtatext{
+    margin-left: 0rem;
+    
+    
+}
+
 
 @media(max-width:1024px){
     header #main-nav{
@@ -506,7 +569,7 @@ footer .copyright{
     .hero .right h1{
         line-height: 2.5rem;
         font-size: 40px;
-        margin-left: 1.8rem;
+        margin-right: 1.8rem;
         margin-bottom: 0.7rem;
     }
     .hero .right h1 span{
@@ -525,7 +588,7 @@ footer .copyright{
     }
 
     .hero .right h6{
-        margin-left: 5rem;
+        margin-left: 2.3rem;
     }
 
 
@@ -670,67 +733,32 @@ footer .copyright{
        margin-left: 1rem;
    }
 
-}
-
-/*----------------------- bhagta text--------------------------------*/
-
-.bhagtatext li {
+   .bhagtatext li {
     list-style: none;
-    color:whitesmoke;
+    color:var(--dark);
     font-size: 30px;
     font-weight: 400;
     top: 0;
     position: relative;
     animation: slide 12s steps(4) infinite;
-}
+   }
 
-@keyframes slide {
-    100%{
-        top:-360px
-    }
-    
-}
-
-.bhagtatext li{
-    position: relative;
-   
-}
-
-.bhagtatext li::after{
+   .bhagtatext li::after{
     content: "";
     position: absolute;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color:var(--dark);
-    border-left: 2px solid var(--dark);
+    background-color:var(--pure);
+    border-left: 2px solid var(--pure);
     animation: typing 3s steps(10) infinite;
 
 
 }
 
 
-@keyframes typing {
 
-    30%,
-    30%{
-        left: calc(100% + 0px);
-    }
-    100%{
-        left: 0;
-    }
+   
+
 }
 
-.bhagtatext{
-    margin-left: -40px; 
-    line-height: 90px;
-    height: 90px;
-    
-    overflow: hidden; 
-}
-
-.bhagtatext{
-    margin-left: 0rem;
-    
-    
-}
